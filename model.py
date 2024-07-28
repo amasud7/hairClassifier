@@ -15,10 +15,10 @@ def predict(img):
     return dict(zip(categories, map(float,probs)))
 
 
-print(learn.predict('test3.jpg')[0])
 
 
 
+"""
 # Logic for sending products depending on curly or straight
 if learn.predict('test3.jpg')[0] == 'curly hair':
     pass
@@ -26,3 +26,4 @@ if learn.predict('test3.jpg')[0] == 'curly hair':
 elif learn.predict('test3.jpg')[0] == 'straight hair':
     pass
     # pass through straight hair products
+    """
